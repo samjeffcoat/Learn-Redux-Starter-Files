@@ -1,16 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router';
 
-const Main = React.createClass({
+const PhotoGrid = React.createClass({
   render() {
-    return (
-      <div>
-        <h1>
-          <Link to="/"> Samstagram</Link>
-        </h1>
-      </div>
-    );
+    return <div className="photo-grid">I'm the photogrid!</div>;
   }
 });
 
-export default Main;
+export default PhotoGrid;
